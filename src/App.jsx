@@ -1,3 +1,5 @@
+import logo from "./assets/logo.png";
+
 function App() {
   return (
     <div>
@@ -5,20 +7,26 @@ function App() {
       {/* NAVBAR */}
       <nav className="navbar">
 
-        <h2 className="logo">
+        {/* <h2 className="logo">
           ACADEMICIA
-        </h2>
-
+        </h2> */}
+        <img
+          src={logo}
+          alt="Academicia Logo"
+          className="logo"
+        />
         <div className="nav-links">
           <a href="#about">About</a>
-          <a href="#solutions">Solutions</a>
-          <button className="nav-btn">
+          <a href="#solutions">Solutions  </a>
+          <a href="#message">Message</a>
+
+          {/* <button className="nav-btn">
             Request Demo
-          </button>
+          </button> */}
         </div>
 
       </nav>
-        
+
 
       {/* HERO */}
       <section className="hero">
@@ -114,7 +122,7 @@ function App() {
           <div className="card">
             <div className="icon">📊</div>
 
-            <h3>CO-PO Attainment</h3>
+            <h3>Student Analyzer System</h3>
 
             <p>
               Accreditation-ready attainment analysis platform.
@@ -199,8 +207,128 @@ function App() {
 
       </section>
 
+    {/* Founder Section */}
+
+<section className="founder-section" id="message">
+
+    <div className="founder-card">
+
+        <div className="founder-left">
+
+            <div className="photo-wrapper">
+
+                <div className="photo-glow"></div>
+
+                <img
+                    src={logo}
+                    alt="Deepesh Agarwal"
+                    className="founder-photo"
+                />
+
+            </div>
+
+            <h3>Deepesh Agarwal</h3>
+
+            <p className="designation">
+                Founder & CEO
+            </p>
+
+            <p className="company">
+                Academicia
+            </p>
+{/* 
+            <div className="profile-info">
+
+                <p>🌐 academicia.in</p>
+
+                <p>📧 info@academicia.in</p>
+
+            </div> */}
+
+        </div>
+
+        <div className="founder-right">
+
+            <div className="quote-icon">
+                ❝
+            </div>
+
+            <div className="vertical-line"></div>
+
+            <div className="message">
+
+                <span className="section-tag">
+                    A Message from the Founder
+                </span>
+
+                <h2>
+                    Transforming <span>Education</span> Through{" "}
+                    <span>Technology</span>
+                </h2>
+
+                <p>
+                    As an educator, I have witnessed the everyday
+                    challenges faced by educational institutions—
+                    manual documentation, repetitive administrative
+                    tasks, disconnected systems, and inefficient
+                    workflows. These challenges inspired me to build
+                    Academicia.
+                </p>
+
+                <p>
+                    Academicia is an EdTech startup dedicated to
+                    developing innovative digital solutions that
+                    simplify academic administration and accelerate
+                    <span> Digital Transformation</span> in educational
+                    institutions.
+                </p>
+
+                <p>
+                    Our vision is to build a unified ecosystem where
+                    document authentication, smart attendance,
+                    CO-PO attainment, faculty performance analytics,
+                    institutional ERP, and other academic solutions
+                    work seamlessly together under one platform.
+                </p>
+
+                <p>
+                    Every product we develop is designed with one
+                    purpose: to reduce administrative burden,
+                    improve transparency, and empower educators
+                    to focus on teaching,
+                    <span> Innovation</span>,
+                    and student success.
+                </p>
+
+                <p>
+                    This is only the beginning of our journey.
+                    We remain committed to building practical,
+                    secure, and scalable technology that creates
+                    a lasting impact on the future of education.
+                </p>
+
+                <div className="signature">
+
+                    <h4>
+                        — Deepesh Agarwal
+                    </h4>
+
+                    <span>
+                        Founder & CEO, Academicia
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
       {/* CONTACT */}
-      <section className="section" id="contact">
+      {/* <section className="section" id="contact">
 
         <h2>Request a Demo</h2>
 
@@ -222,7 +350,7 @@ function App() {
 
         </div>
 
-      </section>
+      </section> */}
 
       {/* FOOTER */}
       <footer>
@@ -238,5 +366,7 @@ function App() {
     </div>
   )
 }
+
+console.log("hey i am arpit")
 
 export default App
