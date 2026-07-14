@@ -50,7 +50,7 @@ function App() {
             all in one ecosystem.
           </p>
 
-          <div className="hero-buttons">
+          {/* <div className="hero-buttons">
 
             <button className="btn-primary">
               Explore Platform
@@ -60,7 +60,7 @@ function App() {
               Book Demo
             </button>
 
-          </div>
+          </div> */}
 
         </div>
 
@@ -117,6 +117,17 @@ function App() {
             <p>
               Smart attendance management with analytics and reporting.
             </p>
+             <button
+              className="card-btn"
+              onClick={() =>
+                window.open(
+                  "https://smart-attendee-frontend.onrender.com/",
+                  "_blank"
+                )
+              }
+            >
+              Launch Live Demo
+            </button>
           </div>
 
           <div className="card">
@@ -127,6 +138,17 @@ function App() {
             <p>
               Accreditation-ready attainment analysis platform.
             </p>
+             <button
+              className="card-btn"
+              onClick={() =>
+                window.open(
+                  "https://academicia-document-auth.onrender.com",
+                  "_blank"
+                )
+              }
+            >
+              Launch Live Demo
+            </button>
           </div>
 
           <div className="card">
@@ -137,6 +159,17 @@ function App() {
             <p>
               Performance tracking and academic evaluation system.
             </p>
+             <button
+              className="card-btn"
+              onClick={() =>
+                window.open(
+                  "https://academicia-document-auth.onrender.com",
+                  "_blank"
+                )
+              }
+            >
+              Launch Live Demo
+            </button>
           </div>
 
           <div className="card">
@@ -147,6 +180,17 @@ function App() {
             <p>
               Conduct and manage smart digital assessments.
             </p>
+             <button
+              className="card-btn"
+              onClick={() =>
+                window.open(
+                  "https://academicia-document-auth.onrender.com",
+                  "_blank"
+                )
+              }
+            >
+              Launch Live Demo
+            </button>
           </div>
 
           <div className="card">
@@ -157,6 +201,17 @@ function App() {
             <p>
               Tailored digital infrastructure for institutions.
             </p>
+             <button
+              className="card-btn"
+              onClick={() =>
+                window.open(
+                  "https://academicia-document-auth.onrender.com",
+                  "_blank"
+                )
+              }
+            >
+              Launch Live Demo
+            </button>
           </div>
 
         </div>
@@ -215,9 +270,9 @@ function App() {
 
         <div className="founder-left">
 
-            <div className="photo-wrapper">
+            {/* <div className="photo-wrapper"> */}
 
-                <div className="photo-glow"></div>
+                {/* <div className="photo-glow"></div>
 
                 <img
                     src={logo}
@@ -225,7 +280,7 @@ function App() {
                     className="founder-photo"
                 />
 
-            </div>
+            </div> */}
 
             <h3>Deepesh Agarwal</h3>
 
